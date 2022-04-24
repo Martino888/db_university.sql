@@ -9,7 +9,7 @@ SELECT `office_address`, COUNT(`id`) AS office_teacher_number FROM `teachers` GR
 
 
 3. Calcolare la media dei voti di ogni appello d'esame
-
+SELECT AVG(`vote`) as vote_mean FROM `exam_student` GROUP BY exam_id
 
 
 4. Contare quanti corsi di laurea ci sono per ogni dipartimento
